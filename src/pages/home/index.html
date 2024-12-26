@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luana Chaves - Home</title>
+    <link rel="stylesheet" href="../../shared/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="../../shared/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <ul class="header">
+            <li><a href="./index.html">MAIN PAGE</a></li>
+            <li><a href="../projects/index.html">PROJECTS</a></li>
+            <li><a href="#contact">PHOTOGRAPHY</a></li>
+            <li><a href="#contact">ABOUT</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="main-page container-center">
+        <h1>LUANA CHAVES</h1>
+
+        <div class="slide-container">
+          <img
+            class="slide-img"
+            width="100%"
+            src="../../../assets/slides/photo-1.png"
+          />
+          <img
+            class="slide-img"
+            width="100%"
+            src="../../../assets/slides/photo-2.png"
+          />
+          <img
+            class="slide-img"
+            width="100%"
+            src="../../../assets/slides/photo-3.png"
+          />
+          <img
+            class="slide-img"
+            width="100%"
+            src="../../../assets/slides/photo-4.png"
+          />
+          <img
+            class="slide-img"
+            width="100%"
+            src="../../../assets/slides/photo-5.png"
+          />
+          <button class="slide-button prev" onclick="changeSlidePage(-1)">
+            <img width="16px" height="21px" src="../../../assets/arrow.png" />
+          </button>
+          <button class="slide-button next" onclick="changeSlidePage(+1)">
+            <img width="16px" height="21px" src="../../../assets/arrow.png" />
+          </button>
+        </div>
+
+        <img class="mobile-home-photo" src="../../../assets/mobile-photo.png" />
+
+        <h2>NOTICE AND CREATE</h2>
+
+        <img src="../../../assets/diamond.png" width="240px" />
+      </section>
+    </main>
+  </body>
+</html>
